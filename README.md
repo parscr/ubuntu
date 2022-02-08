@@ -25,3 +25,6 @@ screen -S name
 screen -list
 screen -r name
 ```
+```
+dmidecode -t 1
+```
