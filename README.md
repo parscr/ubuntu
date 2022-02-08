@@ -19,3 +19,9 @@ apt search package
 ```
 nvidia
 ```
+```
+screen -S name
+(ctrl +a d (detach from screen)
+screen -list
+screen -r name
+```
