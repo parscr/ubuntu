@@ -1,8 +1,8 @@
 # ubuntu
 ```
 adduser username
-usermod -aG sudo username
 deluser -r username
+usermod -aG sudo username
 ```
 ```
 ssh-keygen -t rsa -b 4096
