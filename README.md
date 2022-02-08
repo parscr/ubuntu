@@ -1,11 +1,9 @@
 # ubuntu
-
+'''
 adduser username
-
 usermod -aG sudo username
-
 deluser -r username
-
+'''
 ssh-keygen -t rsa -b 4096
 ssh-copy-id username@remotehost
 ssh username@remotehost
