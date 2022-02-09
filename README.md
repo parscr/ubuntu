@@ -17,7 +17,15 @@ apt remote package1
 apt search package 
 ```
 ```
-nvidia
+ubuntu-drivers devices
+apt install nvidia-driver-XXXX
+reboot
+nvidia-smi
+
+add-apt-repository ppa:micahflee/ppa
+ubuntu-drivers devices
+apt install nvidia-driver-XXX
+reboot
 ```
 ```
 screen -S name
