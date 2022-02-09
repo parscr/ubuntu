@@ -28,6 +28,7 @@ apt install nvidia-driver-XXX
 reboot
 ```
 ```
+apt install screen
 screen -S name
 (ctrl +a d (detach from screen)
 screen -list
@@ -35,4 +36,12 @@ screen -r name
 ```
 ```
 dmidecode -t 1
+```
+```
+apt install ufw
+sudo ufw enable 
+sudo systemctl status ufw 
+sudo ufw allow ssh
+sudo ufw status verbose
+sudo ufw deny ssh
 ```
