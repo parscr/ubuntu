@@ -1,7 +1,7 @@
 # ubuntu
 ```
 adduser username
-deluser -r username
+deluser --remove-all-files username
 usermod -aG sudo username
 ```
 ```
@@ -40,8 +40,12 @@ dmidecode -t 1
 ```
 apt install ufw
 sudo ufw enable 
-sudo systemctl status ufw 
+sudo systemctl status ufw
 sudo ufw allow ssh
 sudo ufw status verbose
 sudo ufw deny ssh
 ```
+```
+disable Suspend and Hibernation
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
