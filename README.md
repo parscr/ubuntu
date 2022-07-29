@@ -36,6 +36,7 @@ screen -r name
 ```
 ```
 dmidecode -t 1
+lsb_release -a
 ```
 ```
 apt install ufw
@@ -47,5 +48,5 @@ sudo ufw deny ssh
 ```
 ```
 disable Suspend and Hibernation
-sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
